@@ -1,7 +1,7 @@
 {
-  "versionCode": 3,
-  "versionName": "03",
-  "apkUrl": "https://github.com/Michael-Maged1/Oikonomia/releases/latest/download/Oikonomia-v03.apk",
+  "versionCode": 4,
+  "versionName": "04",
+  "apkUrl": "https://github.com/Michael-Maged1/Oikonomia/releases/latest/download/Oikonomia-v04.apk",
   "whatsNewAr": "تم إصلاح مشاكل مظهر الدارك واللايت وتفعيل التسجيل الصوتي دون اتصال بالإنترنت.",
   "whatsNewEn": "Fixed dark/light theme bugs and enabled offline speech recognition support."
 }
