@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">أويكونوميا</string>
+    <!-- Replace with your Firebase / Google Web Client ID from the Google Cloud Console -->
+    <string name="default_web_client_id">865474399885-7mj26pqenpjehmg7gdq9c3ig6fur2vhp.apps.googleusercontent.com</string>
+</resources>

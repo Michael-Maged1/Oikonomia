@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:scaleX="0.65"
+        android:scaleY="0.65"
+        android:pivotX="54"
+        android:pivotY="54">
+
+    <!-- 1. Glowing Rounded Square Card (Vibrant purple-to-blue gradient border, elegant dark fill) -->
+    <path
+        android:pathData="M 36,20 H 72 A 16,16 0 0 1 88,36 V 72 A 16,16 0 0 1 72,88 H 36 A 16,16 0 0 1 20,72 V 36 A 16,16 0 0 1 36,20 Z"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#131524">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="20"
+                android:startY="20"
+                android:endX="88"
+                android:endY="88"
+                android:type="linear">
+                <item
+                    android:color="#C77DFF"
+                    android:offset="0.0" />
+                <item
+                    android:color="#7209B7"
+                    android:offset="0.4" />
+                <item
+                    android:color="#3F37C9"
+                    android:offset="0.7" />
+                <item
+                    android:color="#4CC9F0"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 2. Central Microphone Stand (Microphone cradle, stem, and base) -->
+    <path
+        android:pathData="M 36,50 v 12 a 18,18 0 0 0 36,0 v -12"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="36"
+                android:startY="50"
+                android:endX="72"
+                android:endY="68"
+                android:type="linear">
+                <item
+                    android:color="#4CC9F0"
+                    android:offset="0.0" />
+                <item
+                    android:color="#3F37C9"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Base Stem -->
+    <path
+        android:pathData="M 54,80 v 6"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#3F37C9" />
+    <!-- Base Plate -->
+    <path
+        android:pathData="M 44,86 h 20"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#3F37C9" />
+
+    <!-- 3. Central Microphone Pill (Vibrant purple-to-blue gradient block) -->
+    <path
+        android:pathData="M 44,32 h 20 a 10,10 0 0 1 10,10 v 24 a 10,10 0 0 1 -10,10 H 44 a 10,10 0 0 1 -10,-10 V 42 a 10,10 0 0 1 10,-10 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="32"
+                android:endX="64"
+                android:endY="76"
+                android:type="linear">
+                <item
+                    android:color="#7209B7"
+                    android:offset="0.0" />
+                <item
+                    android:color="#3F37C9"
+                    android:offset="0.5" />
+                <item
+                    android:color="#48CAE4"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 4. Inside Microphone: Horizontal lines (Representing list items) -->
+    <path
+        android:pathData="M 49,42 h 10"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+    <path
+        android:pathData="M 49,48 h 10"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+    <path
+        android:pathData="M 49,54 h 10"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- 5. Inside Microphone: Checkmark at the bottom (Representing completed task) -->
+    <path
+        android:pathData="M 49,61 l 3.5,3.5 l 6.5,-6.5"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- 6. Glowing Notification Bell (Top right with bright yellow/golden gradient) -->
+    <!-- Bell Clapper -->
+    <path
+        android:pathData="M 75.5,34.5 a 2.5,2.5 0 0 0 5,0 z"
+        android:fillColor="#FFB300" />
+    <!-- Bell Body -->
+    <path
+        android:pathData="M 78,16.5 c -3.5,0 -5.5,3 -5.5,6 v 4.5 l -2.5,2.5 v 1.5 h 16 v -1.5 l -2.5,-2.5 v -4.5 c 0,-3 -2,-6 -5.5,-6 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="70"
+                android:startY="16.5"
+                android:endX="86"
+                android:endY="31"
+                android:type="linear">
+                <item
+                    android:color="#FFE082"
+                    android:offset="0.0" />
+                <item
+                    android:color="#FFCA28"
+                    android:offset="0.4" />
+                <item
+                    android:color="#FFB300"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Bell Top Loop -->
+    <path
+        android:pathData="M 78,14.5 a 1,1 0 0 1 1,1 v 1 a 1,1 0 0 1 -2,0 v -1 a 1,1 0 0 1 1,-1 z"
+        android:fillColor="#FFE082" />
+
+    <!-- 7. Small Checklist Widget (Bottom left - represent offline/tasks checklist) -->
+    <!-- Base Card Fill & Border -->
+    <path
+        android:pathData="M 17,63 h 18 a 3,3 0 0 1 3,3 v 18 a 3,3 0 0 1 -3,3 H 17 a 3,3 0 0 1 -3,-3 V 66 a 3,3 0 0 1 3,-3 z"
+        android:fillColor="#151B2E"
+        android:strokeWidth="1.2"
+        android:strokeColor="#4CC9F0" />
+    <!-- Bullet Point 1 -->
+    <path
+        android:pathData="M 19.5,67.5 a 1,1 0 1 1 0,2 a 1,1 0 1 1 0,-2"
+        android:fillColor="#4CC9F0" />
+    <path
+        android:pathData="M 23.5,68.5 h 9"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+    <!-- Bullet Point 2 -->
+    <path
+        android:pathData="M 19.5,73.5 a 1,1 0 1 1 0,2 a 1,1 0 1 1 0,-2"
+        android:fillColor="#4CC9F0" />
+    <path
+        android:pathData="M 23.5,74.5 h 9"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+    <!-- Bullet Point 3 with Checkmark -->
+    <path
+        android:pathData="M 19,81 l 2,2 l 4.5,-4.5"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:strokeColor="#4CC9F0" />
+    <path
+        android:pathData="M 27.5,80.5 h 5"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+
+    </group>
+</vector>
